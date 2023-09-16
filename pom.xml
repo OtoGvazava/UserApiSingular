@@ -13,8 +13,8 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <restassured.version>5.3.2</restassured.version>
-        <testng.version>7.8.0</testng.version>
-        <cucumber.version>7.14.0</cucumber.version>
+        <cucumber.java.version>7.14.0</cucumber.java.version>
+        <cucumber.testng.version>7.14.0</cucumber.testng.version>
     </properties>
 
     <dependencies>
@@ -24,14 +24,14 @@
             <version>${restassured.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>${testng.version}</version>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.java.version}</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
-            <version>${cucumber.version}</version>
+            <version>${cucumber.testng.version}</version>
         </dependency>
     </dependencies>
 </project>
