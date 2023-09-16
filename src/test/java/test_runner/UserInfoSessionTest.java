@@ -7,5 +7,5 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/features",
         glue = "step_defs"
 )
-public class UserInfoApiTestRunner extends AbstractTestNGCucumberTests {
+public class UserInfoSessionTest extends AbstractTestNGCucumberTests {
 }

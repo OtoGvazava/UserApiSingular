@@ -2,7 +2,7 @@
 <suite name="Cucumber Test Suite">
     <test name="Cucumber Tests">
         <classes>
-            <class name="test_runner.UserInfoApiTestRunner"/>
+            <class name="test_runner.UserInfoSessionTest"/>
         </classes>
     </test>
 </suite>
